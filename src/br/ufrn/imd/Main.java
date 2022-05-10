@@ -6,7 +6,7 @@ public class Main {
 
         TesouroSelic selic = new TesouroSelic();
         selic.valorInicial = 5000;
-        selic.rentabilidadeLiquidaAno = 2.45;
+        selic.rentabilidadeLiquidaAno = 11.45;
         selic.valorMensal = 200;
         selic.qntMeses = 60;
 

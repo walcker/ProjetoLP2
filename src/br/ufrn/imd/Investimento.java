@@ -7,7 +7,7 @@ public class Investimento {
     public int qntMeses;
 
 
-    Investimento(){
+    public Investimento(){
 
     }
 

@@ -6,7 +6,7 @@ public class TesouroSelic extends Investimento{
 
     public double calcular(double rentabilidadeLiquidaAno, double valorInicial){
 
-        return ((rentabilidadeLiquidaAno/100 * valorInicial) + valorInicial);
+        return (rentabilidadeLiquidaAno/100 * valorInicial) * (int) (qntMeses/12) + valorInicial;
     }
 
 }
